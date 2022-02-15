@@ -1,0 +1,29 @@
+{
+  "name": "image-processing-api",
+  "version": "1.0.0",
+  "description": "Image Processing API",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon src/index.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAhmedsalama/Image-Processing-API.git"
+  },
+  "keywords": [],
+  "author": "Ahmed Salama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iAhmedsalama/Image-Processing-API/issues"
+  },
+  "homepage": "https://github.com/iAhmedsalama/Image-Processing-API#readme",
+  
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0"
+  }
+}
